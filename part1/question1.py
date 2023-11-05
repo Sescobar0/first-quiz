@@ -27,8 +27,10 @@ def get_city_weather(city):
 
   if city == "Sao Paulo":
      sky_condition = "cloudy"
-  elif city == "New York":
+  else if city == "New York":
      sky_condition = "rainy"
+  else if city == "Quito"
+     sky_condition == "sunny"
 
   temperature = get_city_temperature(city)
 
